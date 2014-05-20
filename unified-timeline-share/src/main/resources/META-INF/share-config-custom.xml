@@ -1,0 +1,24 @@
+<alfresco-config>
+  
+	<!-- Share config elements for the doclib actions -->
+	<config evaluator="string-compare" condition="DocLibActions">
+		<actions>
+	        <!-- 
+	       	A timeline can be shown for any content type, but it might not show anything interesting!	
+	        -->
+	        <action id="view-timeline" type="pagelink" label="actions.unifiedtimeline.viewTimeline">
+	           <param name="page">view-timeline?nodeRef={node.nodeRef}</param>
+	        </action>
+		</actions>
+		
+		<actionGroups>
+			<actionGroup id="document-browse">
+				<action index="1002" id="view-timeline"/>
+			</actionGroup>
+			<actionGroup id="document-details">
+				<action index="601" id="view-timeline"/>
+			</actionGroup>
+		</actionGroups>
+	</config>
+
+</alfresco-config>

@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>Document Timeline</shortname>
+  <description>Get document timeline</description>
+  <url>/unified-timeline/timelinedata?{nodeRef}</url>
+  <format default="json">extension</format>
+  <authentication>user</authentication>
+</webscript>

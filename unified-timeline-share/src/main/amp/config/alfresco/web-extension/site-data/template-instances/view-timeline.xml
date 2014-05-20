@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template-instance>
+   <template-type>org/alfresco/extension/unified-timeline/view-timeline</template-type>
+   <properties>
+      <pageFamily>unified-timeline</pageFamily>
+   </properties>
+   <components>
+      <component>
+         <region-id>timeline</region-id>
+         <url>/components/unified-timeline/timeline</url>
+         <properties>
+            <nodeRef>{nodeRef}</nodeRef>
+         </properties>
+      </component>
+   </components>
+</template-instance>

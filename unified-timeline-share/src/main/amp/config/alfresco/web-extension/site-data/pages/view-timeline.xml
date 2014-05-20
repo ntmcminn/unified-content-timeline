@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+   <title>View Content Timeline</title>
+   <title-id>page.viewTimeline.title</title-id>
+   <description>View the timeline for a document</description>
+   <description-id>page.viewTimeline.description</description-id>
+   <template-instance>view-timeline</template-instance>
+   <authentication>user</authentication>
+</page>

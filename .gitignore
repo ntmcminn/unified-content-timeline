@@ -1,0 +1,9 @@
+
+*/.classpath
+*/.project
+*/.settings/*
+share/*
+alfresco/*
+runner/*
+solr/*
+*/tomcat/*
