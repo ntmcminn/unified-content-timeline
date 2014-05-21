@@ -1,9 +1,14 @@
 
 */.classpath
 */.project
+.settings/*
 */.settings/*
 share/*
 alfresco/*
 runner/*
 solr/*
+alf_data_dev/*
 */tomcat/*
+*/target/*
+.project
+*.log
