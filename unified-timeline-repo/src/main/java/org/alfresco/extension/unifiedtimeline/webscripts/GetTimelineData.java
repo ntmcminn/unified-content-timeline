@@ -21,9 +21,9 @@ import org.springframework.extensions.webscripts.WebScriptRequest;
 
 public class GetTimelineData extends DeclarativeWebScript {
 
-	private 				ServiceRegistry registry;
-	private static final 	Log 			logger 		= LogFactory.getLog(GetTimelineData.class);
-	private List<EventProvider> 			providers;
+	private 						ServiceRegistry registry;
+	private static final 			Log 			logger 		= LogFactory.getLog(GetTimelineData.class);
+	private List<EventProvider> 					providers;
 	
 	@Override
 	public Map<String, Object> executeImpl(WebScriptRequest req, Status status, Cache cache) 

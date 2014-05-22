@@ -19,7 +19,7 @@
 -->
 <beans>
     
-    <!-- A simple class that is initialized by Spring -->
+    <!-- The Timeline web script, spits out JSON for consumption by timeline.js -->
     <bean id="webscript.org.alfresco.extension.unified-timeline.timelinedata.get" class="org.alfresco.extension.unifiedtimeline.webscripts.GetTimelineData" parent="webscript">
 		<property name="ServiceRegistry" ref="ServiceRegistry"/>
 		<property name="EventProviders">
