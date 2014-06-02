@@ -49,4 +49,6 @@
     <!-- The replication event provider? -->
     
     <!-- The publishing event provider? -->
+    
+    <!-- The sync event provider? -->
 </beans>
